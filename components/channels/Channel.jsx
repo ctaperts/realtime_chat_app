@@ -6,15 +6,16 @@ class Channel extends Component {
     const {setChannel, channel} = this.props;
     setChannel(channel);
   }
+
   render() {
     const {channel} = this.props;
-    return(
+    return (
       <li>
         <a onClick={this.onClick.bind(this)}>
           {channel.name}
         </a>
       </li>
-    )
+    );
   }
 }
 
@@ -23,4 +24,4 @@ Channel.propTypes = {
   setChannel: React.PropTypes.func.isRequired
 };
 
-export default Channel
+export default Channel;

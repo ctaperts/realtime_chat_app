@@ -25,7 +25,7 @@ class App extends Component{
         addChannel={this.addChannel.bind(this)}
         setChannel={this.setChannel.bind(this)}
       />
-    )
+    );
   }
 }
 

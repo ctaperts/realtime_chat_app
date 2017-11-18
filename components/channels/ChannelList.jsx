@@ -9,10 +9,10 @@ class ChannelList extends Component{
           <Channel
             channel={chan}
             setChannel={this.props.setChannel}
-          />
+          />;
         })
       }</ul>
-    )
+    );
   }
 }
 
@@ -21,4 +21,4 @@ ChannelList.propTypes = {
   setChannel: React.PropTypes.func.isRequired
 };
 
-export default ChannelList
+export default ChannelList;

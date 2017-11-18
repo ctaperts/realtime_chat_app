@@ -9,7 +9,7 @@ class ChannelSection extends Component{
         <ChannelList {...this.props} />
         <ChannelForm {...this.props} />
       </div>
-    )
+    );
   }
 }
 
@@ -17,6 +17,6 @@ ChannelSection.propTypes = {
   channels: React.PropTypes.array.isRequired,
   setChannel: React.PropTypes.func.isRequired,
   addChannel: React.PropTypes.func.isRequired
-}
+};
 
-export default ChannelSection
+export default ChannelSection;
