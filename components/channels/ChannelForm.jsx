@@ -25,4 +25,4 @@ ChannelForm.propTypes = {
   addChannel: React.PropTypes.func.isRequired
 };
 
-export default ChannelForm;
+export default ChannelForm

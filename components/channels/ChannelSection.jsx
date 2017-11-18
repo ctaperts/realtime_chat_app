@@ -19,4 +19,4 @@ ChannelSection.propTypes = {
   addChannel: React.PropTypes.func.isRequired
 };
 
-export default ChannelSection;
+export default ChannelSection
