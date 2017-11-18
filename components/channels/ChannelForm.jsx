@@ -8,7 +8,6 @@ class ChannelForm extends Component {
     this.props.addChannel(channelName);
     node.value = '';
   }
-
   render() {
     return (
       <form onSubmit={this.onSubmit.bind(this)}>
@@ -17,12 +16,12 @@ class ChannelForm extends Component {
           ref='channel'
         />
       </form>
-    );
+    )
   }
 }
 
 ChannelForm.propTypes = {
   addChannel: React.PropTypes.func.isRequired
-};
+}
 
 export default ChannelForm

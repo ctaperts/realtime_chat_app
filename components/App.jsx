@@ -25,8 +25,8 @@ class App extends Component{
         addChannel={this.addChannel.bind(this)}
         setChannel={this.setChannel.bind(this)}
       />
-    );
+    )
   }
 }
 
-export default App
+export default App;

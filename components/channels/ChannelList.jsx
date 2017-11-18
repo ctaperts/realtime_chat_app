@@ -9,10 +9,10 @@ class ChannelList extends Component{
           <Channel
             channel={chan}
             setChannel={this.props.setChannel}
-          />;
+          />
         })
       }</ul>
-    );
+    )
   }
 }
 
