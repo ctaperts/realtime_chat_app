@@ -1,4 +1,4 @@
-import Reach, {Component} from "react";
+import Reach, {Component} from 'react';
 class Channel extends Component{
   onClick(e){
     e.preventDefault();
