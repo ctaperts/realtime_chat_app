@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ChannelSection from './channels/ChannelSection.jsx';
 
 class App extends Component{
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       channels: []
