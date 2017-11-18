@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import ChannelSection from "./channels/ChannelSection.jsx";
+import React, {Component} from 'react';
+import ChannelSection from './channels/ChannelSection.jsx';
 
 class App extends Component{
   constructor(props){
